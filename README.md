@@ -20,7 +20,7 @@ $ composer require zhongdj1/weather -vvv
 ## 使用
 
 ```php
-use Overtrue\Weather\Weather;
+use Zhongdj1\Weather\Weather;
 
 $key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
@@ -192,7 +192,7 @@ array | string   getForecastsWeather(string $city, string $format = 'json')
 WEATHER_API_KEY=xxxxxxxxxxxxxxxxxxxxx
 ```
 
-可以用两种方式来获取 `Overtrue\Weather\Weather` 实例：
+可以用两种方式来获取 `Zhongdj1\Weather\Weather` 实例：
 
 #### 方法参数注入
 
